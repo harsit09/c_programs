@@ -16,9 +16,17 @@ for(i=1;i<n;i++)
 if(a[i]<a[smallest])
 {smallest=i;}
 }
-printf("\n Before interchange: \n Largest number = %d \n Smallest number = %d",a[largest],a[smallest]);
+printf("\n Before interchange: \t");
+for(i=0;i<n;i++)
+{
+    printf("%d \t",a[i]);
+}
 swapper=a[largest];
 a[largest]=a[smallest];
 a[smallest]=swapper;
-printf("\n After interchange: \n Largest number = %d \n Smallest number = %d",a[largest],a[smallest]);
+printf("\n After interchange: \t");
+for(i=0;i<n;i++)
+{
+    printf("%d \t",a[i]);
+}
 }
