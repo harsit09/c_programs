@@ -10,7 +10,7 @@ for(j=0;j<columns;j++)
 }
 for(i=0;i<rows;i++)
 {for(j=0;j<columns;j++)
-{transpose[i][j]=a[j][i];}
+{transpose[j][i]=a[i][j];}
 }
 printf("The transpose of the matrix : \n");
 for(i=0;i<columns;i++)
