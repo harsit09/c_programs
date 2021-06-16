@@ -12,8 +12,7 @@ for(i=0;i<4;i++)
 for(j=1;j<3;j++)
 {if(marks[i][j]>highest[i])
 {highest[i]=marks[i][j];}
-}
-}
+}}
 for(i=0;i<4;i++)
 {printf("Highest marks in subject %d = %d \n",i,highest[i]);}
 }
