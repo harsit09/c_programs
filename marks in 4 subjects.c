@@ -15,5 +15,5 @@ for(j=1;j<3;j++)
 }
 }
 for(i=0;i<4;i++)
-{printf("Highest marks in subject %d = %d \n",i,highest[i]);}
+{printf("Highest marks in subject %d = %d \n",(i+1),highest[i]);}
 }
